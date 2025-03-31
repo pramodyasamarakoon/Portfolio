@@ -64,7 +64,11 @@ export const Navbar: React.FC = () => {
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         <Typography
           variant="h5"
-          sx={{ fontWeight: "bold", color: theme.palette.text.primary }}
+          sx={{
+            fontWeight: "bold",
+            color: theme.palette.text.primary,
+            fontSize: { xs: "1.25rem", md: "1.75rem" },
+          }}
         >
           PramodyaS.
         </Typography>
