@@ -94,7 +94,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             ) : (
               <CardMedia
                 component="img"
-                image="/assets/project_images_not_found.jpg"
+                image={`${process.env.PUBLIC_URL}/assets/project_images_not_found.jpg`}
                 alt="Project Image Not Found"
                 sx={{
                   flex: 1,
