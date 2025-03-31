@@ -23,7 +23,7 @@ export const Experiences: React.FC = () => {
       {/* Background Image Box */}
       <Box
         sx={{
-          backgroundImage: `(${process.env.PUBLIC_URL}/assets/experiences_back.jpg')`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/experiences_back.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           opacity: 0.1,

@@ -4,7 +4,7 @@ export interface Skill {
 }
 
 export const skillsData: Skill[] = [
-    { label: "React JS / React Native", icon: "/assets/skills/react.png" },
+    { label: "React JS / React Native", icon: `${process.env.PUBLIC_URL}/assets/skills/react.png` },
     { label: ".Net Core", icon: "/assets/skills/dotnet.png" },
     { label: "Node.js", icon: "/assets/skills/node.png" },
     { label: "Flutter", icon: "/assets/skills/flutter.png" },
