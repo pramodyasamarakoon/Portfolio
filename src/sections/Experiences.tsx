@@ -37,11 +37,11 @@ export const Experiences: React.FC = () => {
       />
 
       {/* Main Content Box */}
-      <Box sx={{ paddingY: { xs: 2, md: 4 }, paddingX: 1 }}>
+      <Box sx={{ paddingY: { xs: 1, md: 2 }, paddingX: 4 }}>
         <Container>
           <Heading title="Experiences" />
 
-          <Grid container spacing={4} sx={{ paddingY: { xs: 2, md: 4 } }}>
+          <Grid container spacing={4} sx={{ paddingY: { xs: 2, md: 2 } }}>
             <Grid size={{ xs: 12, md: 12 }}>
               {/* MUI Timeline Component */}
               <Timeline position="alternate-reverse">
@@ -57,20 +57,20 @@ export const Experiences: React.FC = () => {
                     <TimelineContent>
                       <Typography
                         variant="h4"
-                        sx={{ fontSize: { xs: 18, md: 26 } }}
+                        sx={{ fontSize: { xs: 16, md: 22 } }}
                       >
                         {exp.title}
                       </Typography>
                       <Typography
                         variant="body2"
-                        sx={{ fontSize: { xs: 12, md: 14 } }}
+                        sx={{ fontSize: { xs: 12, md: 12 } }}
                       >
                         {exp.company} | {exp.startDate} - {exp.endDate}
                       </Typography>
                       <Typography
                         variant="body2"
                         sx={{
-                          fontSize: { xs: 10, md: 12 },
+                          fontSize: { xs: 10, md: 10 },
                           display: { xs: "none", md: "block" },
                         }}
                       >

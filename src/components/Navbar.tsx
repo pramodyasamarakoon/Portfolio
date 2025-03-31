@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
                   activeSection === section
                     ? theme.palette.primary.main
                     : theme.palette.text.primary,
-                fontSize: "16px",
+                fontSize: "14px",
                 textTransform: "none",
                 "&:hover": { color: theme.palette.primary.main },
               }}

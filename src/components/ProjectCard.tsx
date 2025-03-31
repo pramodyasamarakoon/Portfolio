@@ -16,6 +16,7 @@ import {
   useTheme,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
 interface ProjectCardProps {
   project: Project;
@@ -109,7 +110,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             <Typography
               variant="h6"
               fontWeight="bold"
-              sx={{ fontSize: { xs: 12, md: 14 } }}
+              sx={{ fontSize: { xs: 12, md: 12 } }}
             >
               {project.title}
             </Typography>
@@ -151,7 +152,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
               sx={{ mt: 2, backgroundColor: theme.palette.primary.main }}
               fullWidth
             >
-              See More...
+              <VisibilityIcon sx={{ xs: "10px", md: "12px" }} />
             </Button>
           </CardContent>
         </Card>

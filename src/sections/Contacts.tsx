@@ -12,7 +12,7 @@ export const Contacts: React.FC = () => {
       id="contacts"
       sx={{
         p: 3,
-        px: 8,
+        px: 2,
         color: "black",
       }}
     >

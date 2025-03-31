@@ -45,7 +45,7 @@ export const Card: React.FC<cardProps> = ({
           alignItems: "center",
         }}
       >
-        <Typography variant="h6" fontSize={{ xs: "16px", md: "20px" }}>
+        <Typography variant="h6" fontSize={{ xs: "14px", md: "18px" }}>
           {title}
         </Typography>
         {isCollapsed && (
@@ -65,7 +65,7 @@ export const Card: React.FC<cardProps> = ({
             <Grid key={index} size={{ xs: 12, md: isSplit ? 6 : 12 }}>
               <Typography
                 fontWeight="bold"
-                fontSize={{ xs: "12px", md: "14px" }}
+                fontSize={{ xs: "12px", md: "12px" }}
               >
                 {item.title}
               </Typography>

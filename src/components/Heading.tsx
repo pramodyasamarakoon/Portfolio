@@ -13,7 +13,7 @@ export const Heading: React.FC<HeadingProps> = ({ title }) => {
       variant="h2"
       sx={{
         color: theme.palette.text.primary,
-        fontSize: { xs: "24px", md: "40px" },
+        fontSize: { xs: "24px", md: "30px" },
         fontWeight: 700,
         textAlign: { xs: "center", md: "left" },
         marginTop: { xs: 2, md: 6 },

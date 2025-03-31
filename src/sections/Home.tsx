@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        paddingX: 4,
+        paddingX: 8,
         paddingY: 6,
       }}
     >
@@ -46,7 +46,7 @@ export const Home: React.FC = () => {
               variant="h5"
               sx={{
                 color: theme.palette.text.primary,
-                fontSize: { xs: "12px", md: "16px" },
+                fontSize: { xs: "10px", md: "14px" },
               }}
             >
               Hey, I'm Pramodya Samarakoon.
@@ -55,7 +55,7 @@ export const Home: React.FC = () => {
               variant="h1"
               sx={{
                 color: theme.palette.text.primary,
-                fontSize: { xs: "40px", md: "60px" },
+                fontSize: { xs: "40px", md: "50px" },
                 fontWeight: "800px",
                 lineHeight: 0.9,
               }}
@@ -81,7 +81,7 @@ export const Home: React.FC = () => {
               variant="h6"
               sx={{
                 color: theme.palette.text.primary,
-                fontSize: { xs: "12px", md: "16px" },
+                fontSize: { xs: "10px", md: "14px" },
                 lineHeight: 1,
                 marginTop: 2,
                 fontWeight: "100",

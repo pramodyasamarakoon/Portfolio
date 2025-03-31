@@ -8,7 +8,11 @@ export const Projects: React.FC = () => {
     <>
       <Box
         id="projects"
-        sx={{ position: "relative", paddingY: { xs: 2, md: 4 } }}
+        sx={{
+          position: "relative",
+          paddingY: { xs: 2, md: 4 },
+          paddingX: { xs: 0, md: 4 },
+        }}
       >
         {/* Background image */}
         <Box

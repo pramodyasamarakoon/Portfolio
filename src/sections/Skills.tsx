@@ -5,7 +5,14 @@ import { Skill, skillsData } from "../data/skillsData";
 
 export const Skills: React.FC = () => {
   return (
-    <Box id="skills" sx={{ position: "relative", paddingY: { xs: 2, md: 4 } }}>
+    <Box
+      id="skills"
+      sx={{
+        position: "relative",
+        paddingY: { xs: 2, md: 4 },
+        paddingX: { xs: 0, md: 4 },
+      }}
+    >
       {/* Background Image */}
       <Box
         sx={{
@@ -27,9 +34,9 @@ export const Skills: React.FC = () => {
         <Heading title="Skills" />
         <Grid
           container
-          spacing={4}
+          spacing={2}
           sx={{
-            paddingY: { xs: 4, md: 6 },
+            paddingY: { xs: 4, md: 4 },
             paddingX: { xs: 2, md: 4 },
             justifyContent: "center",
           }}
@@ -55,14 +62,14 @@ export const Skills: React.FC = () => {
                   src={skill.icon}
                   alt={skill.label}
                   sx={{
-                    width: { xs: 30, sm: 40, md: 50 },
-                    height: { xs: 30, sm: 40, md: 50 },
+                    width: { xs: 30, sm: 40, md: 40 },
+                    height: { xs: 30, sm: 40, md: 40 },
                     marginBottom: 1,
                   }}
                 />
                 <Typography
                   variant="body2"
-                  sx={{ fontSize: { xs: 10, sm: 12, md: 14 } }}
+                  sx={{ fontSize: { xs: 10, sm: 12, md: 12 } }}
                 >
                   {skill.label}
                 </Typography>

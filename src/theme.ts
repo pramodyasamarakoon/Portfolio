@@ -20,14 +20,14 @@ export const theme = createTheme({
     fontFamily: "Poppins, sans-serif",
     h1: {
       fontWeight: 700,
-      fontSize: "2.5rem",
+      fontSize: "2rem",
     },
     h2: {
       fontWeight: 600,
-      fontSize: "2rem",
+      fontSize: "1.5rem",
     },
     body1: {
-      fontSize: "1rem",
+      fontSize: "0.75rem",
     },
   },
   components: {

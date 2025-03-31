@@ -15,7 +15,9 @@ export const App: React.FC = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Navbar />
-      <Container>
+      <Container
+      // style={{ paddingLeft: 60, paddingRight: 60 }}
+      >
         <section id="home">
           <Home />
         </section>

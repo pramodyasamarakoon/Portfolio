@@ -6,7 +6,14 @@ import { academicData, extraCData, researchData } from "../data/aboutData";
 
 export const About: React.FC = () => {
   return (
-    <Box id="about" sx={{ position: "relative", paddingY: { xs: 2, md: 4 } }}>
+    <Box
+      id="about"
+      sx={{
+        position: "relative",
+        paddingY: { xs: 2, md: 2 },
+        paddingX: { xs: 0, md: 4 },
+      }}
+    >
       {/* Background image */}
       <Box
         sx={{
@@ -26,7 +33,7 @@ export const About: React.FC = () => {
       {/* Main Content */}
       <Container>
         <Heading title="About" />
-        <Grid container spacing={2} sx={{ pt: 2 }}>
+        <Grid container spacing={2} sx={{ pt: 1 }}>
           <Grid size={12}>
             <Card
               title="Academic Qualifications"
