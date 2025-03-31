@@ -144,7 +144,7 @@ export const Home: React.FC = () => {
           >
             <Box
               component="img"
-              src="/assets/Profile_Image.jpg"
+              src={`${process.env.PUBLIC_URL}/assets/Profile_Image.jpg`}
               alt="My Image"
               sx={{
                 width: { xs: "250px", md: "300px" },
