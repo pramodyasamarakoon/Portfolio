@@ -10,7 +10,7 @@ export const About: React.FC = () => {
       {/* Background image */}
       <Box
         sx={{
-          backgroundImage: 'url("/assets/about_back.jpg")',
+          backgroundImage: `url("${process.env.PUBLIC_URL}/assets/about_back.jpg")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           opacity: 0.05,

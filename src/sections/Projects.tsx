@@ -13,7 +13,7 @@ export const Projects: React.FC = () => {
         {/* Background image */}
         <Box
           sx={{
-            backgroundImage: 'url("/assets/projects_back.jpg")',
+            backgroundImage: `url("${process.env.PUBLIC_URL}/assets/projects_back.jpg")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 0.1,

@@ -13,27 +13,26 @@ import { Experience, experienceData } from "../data/experienceData";
 
 // Experience Section Component
 export const Experiences: React.FC = () => {
-
   return (
     <Box
       sx={{
-        position: "relative", // To allow content to be overlaid on top of the background image
+        position: "relative",
       }}
       id="experiences"
     >
       {/* Background Image Box */}
       <Box
         sx={{
-          backgroundImage: "url('/assets/experiences_back.jpg')",
+          backgroundImage: `(${process.env.PUBLIC_URL}/assets/experiences_back.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           opacity: 0.1,
-          position: "absolute", // Position the image box at the back
+          position: "absolute",
           top: 0,
           left: 0,
           right: 0,
           bottom: 0,
-          zIndex: -1, // Ensure the background image is behind the content
+          zIndex: -1,
         }}
       />
 
