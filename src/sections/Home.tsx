@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        paddingX: 8,
+        paddingX: { xs: 2, md: 8 },
         paddingY: 6,
       }}
     >
