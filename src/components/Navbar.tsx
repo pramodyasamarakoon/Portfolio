@@ -98,7 +98,7 @@ export const Navbar: React.FC = () => {
           <Tooltip title="Download Resume">
             <IconButton
               onClick={() => {
-                const cvUrl = "/assets/SM_Pramodya_Samarakoon.pdf";
+                const cvUrl = `${process.env.PUBLIC_URL}/assets/SM_Pramodya_Samarakoon.pdf`;
                 const link = document.createElement("a");
                 link.href = cvUrl;
                 link.download = "SM_Pramodya_Samarakoon.pdf";
