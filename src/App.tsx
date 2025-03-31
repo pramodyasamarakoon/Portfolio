@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Container, CssBaseline, ThemeProvider } from "@mui/material";
+import { theme } from "./theme";
+import { Navbar } from "./components/Navbar";
+import { Home } from "./sections/Home";
+import { Experiences } from "./sections/Experiences";
+import { Skills } from "./sections/Skills";
+import { Projects } from "./sections/Projects";
+import { About } from "./sections/About";
+import { Contacts } from "./sections/Contacts";
 
-function App() {
+export const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Navbar />
+      <Container>
+        <section id="home">
+          <Home />
+        </section>
+        <section id="experiences">
+          <Experiences />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="contacts">
+          <Contacts />
+        </section>
+      </Container>
+    </ThemeProvider>
   );
-}
-
-export default App;
+};
