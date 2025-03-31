@@ -26,7 +26,7 @@ export const Home: React.FC = () => {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundImage: "url('/assets/developer_back.png')",
+          backgroundImage: `url('${process.env.PUBLIC_URL}/assets/developer_back.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           opacity: 0.1,
