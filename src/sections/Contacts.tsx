@@ -27,7 +27,7 @@ export const Contacts: React.FC = () => {
           flexWrap: "wrap",
         }}
       >
-        <Grid size={{ xs: 12, md: 4 }}>
+        <Grid size={{ xs: 11, md: 4 }}>
           {/* Email */}
           <Link
             href="mailto:pramodyamsamarakoon@gmail.com"

@@ -63,10 +63,6 @@ export const projectsData: Project[] = [
         descriptionLong: ["The Lab Solution App is a mobile application designed to streamline the operations of small-scale laboratories...", ],
         techStack: ["Flutter"],
         githubLinkFrontend: "https://github.com/pramodyasamarakoon/Lab-Solution-App.git",
-        images: [
-            `${process.env.PUBLIC_URL}/assets/projects/Lab_Solution/1.jpg`,
-            `${process.env.PUBLIC_URL}/assets/projects/Lab_Solution/2.jpg`
-        ]
     },
     {
         title: "Frontend for a Distributed System",
@@ -74,9 +70,6 @@ export const projectsData: Project[] = [
         descriptionShort: `A React JS frontend for a distributed system.`,
         descriptionLong: ["The Frontend for a Distributed System is a React JS-based user interface designed for a cloud-based file management system...", ],
         techStack: ["React JS", "Material UI", "Tailwind CSS"],
-        images: [
-            `${process.env.PUBLIC_URL}/assets/projects/Distributed_System/1.jpg`
-        ]
     },
     {
         title: "e-channelling and order medicine System",
