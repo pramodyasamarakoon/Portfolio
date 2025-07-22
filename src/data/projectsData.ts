@@ -11,6 +11,38 @@ export interface Project {
 }
 
 export const projectsData: Project[] = [
+    
+    {
+        title: "Chem Auction System",
+        mainImg: [
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/01.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/02.png`,
+        ],
+        year: "2025",
+        descriptionShort: `Chem Auction System 2025 is a web-based platform for buying, selling, and auctioning chemical products. It supports multiple user roles including sellers, buyers, QA reviewers, admins, and complaint handlers (RA), providing a streamlined and secure marketplace with real-time auction capabilities.`,
+        descriptionLong: ["Chem Auction System 2025 is a comprehensive web-based application designed for the chemical products marketplace, developed using React JS, .Net Core, MySQL, Material UI, and Tailwind CSS. This system enables sellers to list chemical products both for direct sale and auction, while buyers can browse, bid, and purchase based on live auction events.",
+
+"The platform supports a robust auction process where sellers submit products for auction listing. Quality Assurance (QA) personnel review and approve these products prior to listing, ensuring compliance and quality standards. During the auction, buyers place bids in real time, and once the auction timer expires, the product is automatically sold to the highest bidder, facilitating a transparent and efficient trading environment.",
+
+"The system incorporates role-based access control with five distinct user roles: Sellers who upload and manage their products, Buyers who participate in auctions and direct purchases, QA reviewers who validate products before auctions, Regulatory Authority (RA) users who handle complaints and disputes, and Admins who oversee and control the overall platform including user management and transaction monitoring.",
+
+"By integrating a user-friendly interface and a secure backend, Chem Auction System 2025 streamlines chemical product trading and auction management, delivering increased market transparency and operational efficiency for all stakeholders."],
+        techStack: ["React JS", ".Net Core", "MySQL", "Material UI", "Tailwind CSS"],
+        githubLinkFrontend: "https://github.com/pramodyasamarakoon/chemAuction_Frontend.git",
+        githubLinkBackend:"https://github.com/pramodyasamarakoon/chemAuction_Backend.git",
+        images: [
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/01.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/02.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/03.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/04.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/05.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/06.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/07.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/08.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/09.png`,
+            `${process.env.PUBLIC_URL}/assets/projects/Chem_Auction/10.png`,
+        ]
+    },
     {
         title: "Boarding Expenses Tracking App",
         mainImg: [
@@ -104,4 +136,5 @@ medical appointments, laboratory report management and a medical ordering system
         githubLinkFrontend: "https://github.com/pramodyasamarakoon/Aromed_Frontend.git",
         githubLinkBackend:"https://github.com/pramodyasamarakoon/Aromed-Backend.git",
     },
+    
 ]
